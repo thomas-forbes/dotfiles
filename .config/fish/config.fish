@@ -13,7 +13,7 @@ function fish_prompt
         set -l branch (git branch --show-current 2>/dev/null)
         if test -n "$branch"
             set_color magenta
-            echo -n " [$branch] "
+            echo -n "[$branch] "
         end
     end
 
@@ -41,7 +41,8 @@ if status is-interactive
     abbr -a c clear
     abbr -a e exit
     abbr -a l "ls -la"
-    abbr -a zedc "zed .; exit"
+    abbr -a zc "zed .; exit"
+    abbr -a zn "zed -n"
     abbr -a lg lazygit
     abbr -a gh-repo-push "gh repo create --source=. --private --push"
 
