@@ -2,6 +2,7 @@ set -U fish_greeting
 
 fish_add_path $HOME/.bun/bin
 fish_add_path $HOME/Library/pnpm
+fish_add_path $HOME/.cargo/bin
 
 set -x BREW_PREFIX "/opt/homebrew"
 eval "$($BREW_PREFIX/bin/brew shellenv)"
