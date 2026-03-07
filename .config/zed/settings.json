@@ -1,0 +1,93 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "git_panel": {
+    "tree_view": true
+  },
+  "agent_ui_font_size": 14.0,
+  "agent_buffer_font_size": 12.0,
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": true
+    }
+  },
+  "edit_predictions": {
+    "provider": "copilot"
+  },
+  "tab_bar": {
+    "show_tab_bar_buttons": false,
+    "show_nav_history_buttons": false,
+  },
+  "buffer_font_family": ".ZedMono",
+  "minimap": {
+    "max_width_columns": 80,
+    "show": "never",
+  },
+  "code_actions_on_format": {
+    "source.fixAll.biome": true,
+  },
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+      },
+      "enable_lsp_tasks": true,
+    },
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+  },
+  "diff_view_style": "unified",
+  "project_panel": {
+    "hide_root": true,
+    "indent_size": 14.0,
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+    },
+  },
+  "base_keymap": "VSCode",
+  "icon_theme": "Material Icon Theme",
+  "vim_mode": true,
+  "ui_font_size": 14.0,
+  "buffer_font_size": 12.0,
+  "theme": {
+    "mode": "system",
+    "light": "0x96f Theme Light",
+    "dark": "0x96f Theme",
+  },
+  "soft_wrap": "editor_width",
+  "theme_overrides": {
+    "Catppuccin Mocha": {
+      "background": "#141424",
+      "editor.background": "#141424",
+      "editor.gutter.background": "#141424",
+      "editor.line_number": "#6c7086",
+      "editor.active_line_number": "#cdd6f4",
+      "panel.background": "#0E0E1B",
+      "surface.background": "#0E0E1B",
+      "status_bar.background": "#070711",
+      "title_bar.background": "#070711",
+      "tab_bar.background": "#070711",
+      "terminal.background": "#141424",
+      "search.match_background": "#cba6f7",
+    },
+  },
+}

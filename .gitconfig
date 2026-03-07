@@ -1,0 +1,26 @@
+[alias]
+	aa = add -A
+	a = add
+	s = "status -s"
+	c = "commit -m"
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = "true"
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[user]
+	name = thomas-forbes
+	email = 34174315+thomas-forbes@users.noreply.github.com
+[core]
+	ignorecase = false
+
+#[includeIf "gitdir:~/coding/future-company/"]
+#	path = ~/.gitconfig-future-company
+
