@@ -1,9 +1,16 @@
 set -U fish_greeting
 
+# path
 fish_add_path $HOME/.bun/bin
 fish_add_path $HOME/Library/pnpm
 fish_add_path $HOME/.cargo/bin
 
+# nvim
+set -gx EDITOR nvim
+set -gx VISUAL nvim
+alias vim nvim
+
+# node
 set -gx PATH "/Users/thomasforbes/.local/state/fnm_multishells/1886_1773360806649/bin" $PATH;
 set -gx FNM_MULTISHELL_PATH "/Users/thomasforbes/.local/state/fnm_multishells/1886_1773360806649";
 set -gx FNM_VERSION_FILE_STRATEGY "local";
@@ -14,6 +21,7 @@ set -gx FNM_COREPACK_ENABLED "false";
 set -gx FNM_RESOLVE_ENGINES "true";
 set -gx FNM_ARCH "arm64";
 
+# brew
 set -x BREW_PREFIX "/opt/homebrew"
 eval "$($BREW_PREFIX/bin/brew shellenv)"
 
