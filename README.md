@@ -16,6 +16,13 @@ curl -fsSL https://bun.com/install | bash
 
 ## Brew
 
+[install homebrew](https://brew.sh/)
+```sh
+brew install fish
+echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
+chsh -s /opt/homebrew/bin/fish
+```
+
 ```fish
 # programs
 set HB_PKGS go
@@ -26,6 +33,8 @@ set -a HB_PKGS fnm
 set -a HB_PKGS jq
 set -a HB_PKGS uv
 set -a HB_PKGS fzf
+set -a HB_PKGS yadm
+set -a HB_PKGS rust
 
 brew install $HB_PKGS
 
@@ -37,11 +46,12 @@ set -a HB_CASKS raycast
 set -a HB_CASKS beeper
 set -a HB_CASKS yaak
 set -a HB_CASKS boop
-set -a HB_CASKS alt-tab
 set -a HB_CASKS keyboardcleantool
 set -a HB_CASKS ghostty
 set -a HB_CASKS tableplus
 set -a HB_CASKS 1password
+set -a HB_CASKS karabiner-elements
+set -a HB_CASKS spotify
 # set -a HB_CASKS sikarugir
 # utils
 set -a HB_CASKS rectangle
