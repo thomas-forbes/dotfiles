@@ -1,5 +1,7 @@
 set -U fish_greeting
 
+fish_vi_key_bindings
+
 fish_add_path $HOME/.bun/bin
 fish_add_path $HOME/Library/pnpm
 fish_add_path $HOME/.cargo/bin
