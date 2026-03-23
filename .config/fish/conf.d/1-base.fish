@@ -22,3 +22,8 @@ set -gx FNM_ARCH "arm64"
 
 set -gx BREW_PREFIX "/opt/homebrew"
 eval "$($BREW_PREFIX/bin/brew shellenv)"
+
+set -gx PNPM_HOME "/Users/thomasforbes/Library/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
