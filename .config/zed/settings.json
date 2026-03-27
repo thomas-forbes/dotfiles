@@ -8,17 +8,17 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "git_panel": {
-    "tree_view": true
+    "tree_view": true,
   },
   "agent_ui_font_size": 14.0,
   "agent_buffer_font_size": 12.0,
   "terminal": {
     "toolbar": {
-      "breadcrumbs": true
-    }
+      "breadcrumbs": true,
+    },
   },
   "edit_predictions": {
-    "provider": "copilot"
+    "provider": "copilot",
   },
   "tab_bar": {
     "show_tab_bar_buttons": false,
