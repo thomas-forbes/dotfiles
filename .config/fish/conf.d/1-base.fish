@@ -5,6 +5,7 @@ fish_vi_key_bindings
 fish_add_path $HOME/.bun/bin
 fish_add_path $HOME/Library/pnpm
 fish_add_path $HOME/.cargo/bin
+fish_add_path $HOME/.local/bin
 
 set -gx EDITOR nvim
 set -gx VISUAL nvim
