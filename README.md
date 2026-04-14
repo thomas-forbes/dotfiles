@@ -34,7 +34,7 @@ set -a HB_PKGS jq
 set -a HB_PKGS uv
 set -a HB_PKGS fzf
 set -a HB_PKGS yadm
-set -a HB_PKGS rust
+set -a HB_PKGS rustup
 set -a HB_PKGS neovim
 set -a HB_PKGS zoxide
 
