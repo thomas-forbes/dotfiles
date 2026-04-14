@@ -43,7 +43,6 @@ brew install $HB_PKGS
 # apps
 set HB_CASKS zed
 set -a HB_CASKS helium-browser
-set -a HB_CASKS notion-calendar
 set -a HB_CASKS raycast
 set -a HB_CASKS beeper
 set -a HB_CASKS yaak
@@ -57,6 +56,7 @@ set -a HB_CASKS spotify
 set -a HB_CASKS iina
 set -a HB_CASKS alt-tab
 # set -a HB_CASKS sikarugir
+set -a HB_CASKS steam
 # utils
 set -a HB_CASKS rectangle
 set -a HB_CASKS jordanbaird-ice
