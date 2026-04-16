@@ -55,12 +55,13 @@ set -a HB_CASKS karabiner-elements
 set -a HB_CASKS spotify
 set -a HB_CASKS iina
 set -a HB_CASKS alt-tab
-# set -a HB_CASKS sikarugir
 set -a HB_CASKS steam
+# set -a HB_CASKS sikarugir
 # utils
 set -a HB_CASKS rectangle
 set -a HB_CASKS jordanbaird-ice
 set -a HB_CASKS font-zed-mono
+set -a HB_CASKS shottr
 
 brew install --cask $HB_CASKS
 ```
