@@ -37,6 +37,7 @@ set -a HB_PKGS yadm
 set -a HB_PKGS rustup
 set -a HB_PKGS neovim
 set -a HB_PKGS zoxide
+set -a HB_PKGS 1password-cli
 
 brew install $HB_PKGS
 

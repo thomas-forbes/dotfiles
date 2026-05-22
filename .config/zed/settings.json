@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "wrap_guides": [100],
+  "agent_servers": {
+    "pi-acp": {
+      "type": "registry",
+    },
+  },
   "document_folding_ranges": "on",
   "languages": {
     "TSX": {
