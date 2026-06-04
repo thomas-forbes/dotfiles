@@ -7,6 +7,43 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+	"agent": {
+		"default_model": {
+			"provider": "openrouter",
+			"model": "moonshotai/kimi-k2.6",
+			"enable_thinking": false
+		},
+		"favorite_models": [
+   {
+    "provider": "openrouter",
+    "model": "moonshotai/kimi-k2.6",
+    "enable_thinking": false
+   },
+   {
+    "provider": "openrouter",
+    "model": "moonshotai/kimi-k2.6-fast",
+    "enable_thinking": false
+   }
+  ],
+		"model_parameters": []
+	},
+	"language_models": {
+		"open_router": {
+			"api_url": "https://openrouter.ai/api/v1",
+			"available_models": [
+				{
+					"name": "moonshotai/kimi-k2.6-fast",
+					"display_name": "Kimi K2.6 - fast",
+					"max_tokens": 262144,
+					"supports_tools": true,
+					"provider": {
+						"order": ["wandb/fp4"],
+						"allow_fallbacks": false
+					}
+				}
+			]
+		}
+	},
 	"wrap_guides": [100],
 	"agent_servers": {
 		"pi-acp": {
