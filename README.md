@@ -57,6 +57,8 @@ set -a HB_CASKS spotify
 set -a HB_CASKS iina
 set -a HB_CASKS alt-tab
 set -a HB_CASKS steam
+set -a HB_CASKS selfcontrol
+set -a HB_CASKS hammerspoon
 # set -a HB_CASKS sikarugir
 # utils
 set -a HB_CASKS rectangle
