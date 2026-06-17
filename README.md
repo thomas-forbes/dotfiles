@@ -63,8 +63,10 @@ set -a HB_CASKS hammerspoon
 # utils
 set -a HB_CASKS rectangle
 set -a HB_CASKS jordanbaird-ice
-set -a HB_CASKS font-zed-mono
 set -a HB_CASKS shottr
+# fonts
+set -a HB_CASKS font-zed-mono
+set -a HB_CASKS font-agave
 
 brew install --cask $HB_CASKS
 ```

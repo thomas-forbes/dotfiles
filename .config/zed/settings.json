@@ -7,8 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-	"agent": {
-		"default_model": {
+	"outline_panel": {
+  "dock": "left"
+ },
+ "collaboration_panel": {
+  "dock": "left"
+ },
+ "agent": {
+		"dock": "right",
+  "default_model": {
 			"provider": "openrouter",
 			"model": "moonshotai/kimi-k2.6",
 			"enable_thinking": false
@@ -66,12 +73,14 @@
 		"Vue.js": { "formatter": { "language_server": { "name": "biome" } } }
 	},
 	"git_panel": {
-		"tree_view": true
+		"dock": "left",
+  "tree_view": true
 	},
 	"agent_ui_font_size": 14.0,
 	"agent_buffer_font_size": 12.0,
 	"terminal": {
-		"toolbar": {
+		"font_family": ".ZedMono",
+  "toolbar": {
 			"breadcrumbs": true
 		}
 	},
@@ -114,7 +123,8 @@
 	},
 	"diff_view_style": "unified",
 	"project_panel": {
-		"hide_root": true,
+		"dock": "left",
+  "hide_root": true,
 		"indent_size": 14.0
 	},
 	"git": {
