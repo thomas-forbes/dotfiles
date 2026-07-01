@@ -8,31 +8,32 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
 	"cli_default_open_behavior": "new_window",
- "outline_panel": {
-  "dock": "left"
- },
- "collaboration_panel": {
-  "dock": "left"
- },
- "agent": {
+	"preferred_line_length": 100,
+	"outline_panel": {
+		"dock": "left"
+	},
+	"collaboration_panel": {
+		"dock": "left"
+	},
+	"agent": {
 		"dock": "right",
-  "default_model": {
+		"default_model": {
 			"provider": "openrouter",
 			"model": "moonshotai/kimi-k2.6",
 			"enable_thinking": false
 		},
 		"favorite_models": [
-   {
-    "provider": "openrouter",
-    "model": "moonshotai/kimi-k2.6",
-    "enable_thinking": false
-   },
-   {
-    "provider": "openrouter",
-    "model": "moonshotai/kimi-k2.6-fast",
-    "enable_thinking": false
-   }
-  ],
+			{
+				"provider": "openrouter",
+				"model": "moonshotai/kimi-k2.6",
+				"enable_thinking": false
+			},
+			{
+				"provider": "openrouter",
+				"model": "moonshotai/kimi-k2.6-fast",
+				"enable_thinking": false
+			}
+		],
 		"model_parameters": []
 	},
 	"language_models": {
@@ -75,13 +76,13 @@
 	},
 	"git_panel": {
 		"dock": "left",
-  "tree_view": true
+		"tree_view": true
 	},
 	"agent_ui_font_size": 14.0,
 	"agent_buffer_font_size": 12.0,
 	"terminal": {
 		"font_family": ".ZedMono",
-  "toolbar": {
+		"toolbar": {
 			"breadcrumbs": true
 		}
 	},
@@ -125,7 +126,7 @@
 	"diff_view_style": "unified",
 	"project_panel": {
 		"dock": "left",
-  "hide_root": true,
+		"hide_root": true,
 		"indent_size": 14.0
 	},
 	"git": {
