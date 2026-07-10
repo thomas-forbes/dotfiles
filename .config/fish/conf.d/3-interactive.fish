@@ -6,6 +6,7 @@ if status is-interactive
     abbr -a zn "zed -n"
     abbr -a lg lazygit
     abbr -a gh-repo-push "gh repo create --source=. --private --push"
+    abbr -a p1 "ping 1.1.1.1"
 
     yadm status -s
 end
