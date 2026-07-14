@@ -55,7 +55,7 @@ set -a HB_CASKS 1password
 set -a HB_CASKS karabiner-elements
 set -a HB_CASKS spotify
 set -a HB_CASKS iina
-set -a HB_CASKS alt-tab
+set -a HB_CASKS bettercmdtab
 set -a HB_CASKS steam
 set -a HB_CASKS selfcontrol
 set -a HB_CASKS hammerspoon
