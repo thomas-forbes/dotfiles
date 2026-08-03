@@ -17,6 +17,7 @@ curl -fsSL https://bun.com/install | bash
 ## Brew
 
 [install homebrew](https://brew.sh/)
+
 ```sh
 brew install fish
 echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
@@ -43,6 +44,7 @@ brew install $HB_PKGS
 
 # apps
 set HB_CASKS zed
+set -a HB_CASKS cursor
 set -a HB_CASKS helium-browser
 set -a HB_CASKS raycast
 set -a HB_CASKS beeper
@@ -59,7 +61,7 @@ set -a HB_CASKS bettercmdtab
 set -a HB_CASKS steam
 set -a HB_CASKS selfcontrol
 set -a HB_CASKS hammerspoon
-# set -a HB_CASKS sikarugir
+set -a HB_CASKS sikarugir
 # utils
 set -a HB_CASKS rectangle
 set -a HB_CASKS jordanbaird-ice
