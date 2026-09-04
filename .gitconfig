@@ -24,3 +24,5 @@
 #[includeIf "gitdir:~/coding/future-company/"]
 #	path = ~/.gitconfig-future-company
 
+[fetch]
+	prune = true
