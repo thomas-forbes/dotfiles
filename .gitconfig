@@ -26,3 +26,6 @@
 
 [fetch]
 	prune = true
+[credential "https://ampcode.com/"]
+	helper = 
+	helper = !amp git-credential-helper
